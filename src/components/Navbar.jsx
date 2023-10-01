@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 const Navbar = () => {
   return (
     <div className='bg-red-500 text-white flex justify-between p-5'>
-        <h1>POGI AKO</h1>
+        <h1 className="3-xl">POGI AKO</h1>
         <div >
             <ul className='font-bold flex space-x-5'>
                 <Link to="/">Home</Link>
